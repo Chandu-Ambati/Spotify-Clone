@@ -1,0 +1,51 @@
+.flex
+{
+    display: flex;
+}
+.justify-center
+{
+    justify-content: center;
+}
+.items-align
+{
+    align-items: center;
+}
+.border
+{
+    border: 2px solid red;
+    margin: 2px;
+}
+.bg-black
+{
+    background-color: black;
+    color: white;
+}
+.bg-grey
+{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 10px;
+}
+.p-1
+{
+    padding: 10px;
+}
+/* Place the provided CSS code here */
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Dark color for the scrollbar handle */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Lighter color for the scrollbar handle on hover */
+  }
+  

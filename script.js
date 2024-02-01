@@ -21,7 +21,7 @@ function blocking_NaN()
 
 async function getsongs(folder) {
     currfolder = folder
-    let a = await fetch(`http://127.0.0.1:5500/${folder}`);
+    let a = await fetch(`${folder}`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -67,7 +67,7 @@ const playmusic = (track, pause = false) => {
 }
 
 async function dispAlbums() {
-    let a = await fetch(`http://127.0.0.1:5500/songs/`);
+    let a = await fetch(`/songs/`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
